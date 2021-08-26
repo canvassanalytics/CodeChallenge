@@ -1,1 +1,76 @@
-.ipynb_checkpoints
+### OSX ###
+.DS_Store
+
+
+### Django Rest Framework ###
+MANIFEST
+.project
+.pydevproject
+.settings
+.cache
+.coverage
+.tox
+.idea/*
+*.pot
+
+*.db
+coverage.xml
+env
+docs/build
+html
+htmlcov
+build/*
+dist/*
+xmlrunner/*
+
+
+### IDE/Code Editors ###
+*~
+\#*\#
+*.swp
+*.swo
+.#*
+.idea/
+.vscode/
+
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Local settings
+.env
+
+# Kubeflow files
+*.tar.gz
